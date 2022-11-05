@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="jquery-3.6.1.js"></script>
+</head>
+<style>
+    .book:hover{
+      box-shadow:7px 7px 7px 7px grey;
+     }
+      .book{
+        display:inline-block;
+       
+        padding: 15px;
+
+        border-radius: 5px;
+      }
+      .book1{
+        padding-left: 90px;
+        margin: 25px;
+      }
+      h1{
+        font-size:280%;
+        text-align:center;
+      }
+      button{
+        width: 170px;
+        height: 50px;
+      }
+      .ad {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-color:rgb(190, 241, 190);
+  padding: 80px;
+}
+      .ad .btn1 {
+  position: absolute;
+  top: 55%;
+  left: 45%;}
+
+  .form-popup {
+  display: none;
+  position:fixed;
+  bottom: 30%;
+  border: 3px solid rgb(97, 228, 97);
+  left:30%;
+  right:30%;
+  top:30%;
+  background-color:rgb(190, 241, 190);
+  max-width: 80%;
+  text-align: center;
+}
+.footer{
+  background-color:rgb(97, 228, 97);
+
+}
+#logo{
+  width: 250px;
+  height: 100px;
+}
+
+      .sort{
+        padding-left:70%;
+         width:200px;
+         height:100px;
+      }
+</style>
+<body>
+    <nav class="navbar" style="background-color:rgb(97, 228, 97); padding: 20px;">
+        <div class="container-fluid">
+          <a class="navbar-brand">Bootstore</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"">
+            <button class="btn btn-outline-warning" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+              
+    
+    
+ 
+
+      <ul class="nav nav-tabs  justify-content-center"  style="background-color:black;">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="home.html">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="new arrivals.html">New Arrivals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bestseller.html">Bestsellers</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="fiction.html">Fiction</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="non-fiction.html">Non-Fiction</a></li>
+          </ul>
+        </li>
+          
+      </ul>
+<img src="ad1.jpg" width="1400" height="300px">
+<b>Sort : </b>
+<select name="sort" class="form-control">
+    <option value="">--Select--</option>
+    <option value="priceasc"  >Price : Low to High</option>
+    <option value="pricedesc"  >Price : High to Low</option>
+    <option value="letterasc"  >Letter : A to Z</option>
+    <option value="letterdesc"  >Letter : Z to A</option>
+</select>
+<h1><b>New Arrivals : </b></h1>
+<hr>
+<div class="book1">
+<div class="book">
+    <img src="next in line.jpg" alt="..." width="200px" height="300px">
+    
+  </div>
+  <div class="book">
+    <img src="it ends with us.jpeg" alt="..." width="200px" height="300px">
+    
+  </div>
+  <div class="book">
+    <img src="ikigai.jpeg"  alt="..." width="200px" height="300px">
+    
+  </div>
+  <div class="book">
+    <img src="lanka.jpeg" alt="..." width="200px" height="300px">
+    
+  </div>
+  <div class="book">
+    <img src="shiva trilogy.jpg" alt="..."width="200px" height="300px">
+    
+  </div>
+  <div class="book">
+    <img src="next in line.jpg" alt="..." width="200px" height="300px">
+    
+  </div>
+  <div class="book">
+    <img src="it ends with us.jpeg" alt="..." width="200px" height="300px">
+    
+  </div>
+  <div class="book">
+    <img src="ikigai.jpeg"  alt="..." width="200px" height="300px">
+    
+  </div>
+  <div class="book">
+    <img src="lanka.jpeg" alt="..." width="200px" height="300px">
+    
+  </div>
+  <div class="book">
+    <img src="shiva trilogy.jpg" alt="..."width="200px" height="300px">
+    
+  </div> <center> <button class="btn btn-outline-danger view"> view more</button></center>
+  <div class="book h">
+    <img src="next in line.jpg" alt="..." width="200px" height="300px">
+    
+  </div>
+  <div class="book h">
+    <img src="it ends with us.jpeg" alt="..." width="200px" height="300px">
+    
+  </div>
+  <div class="book h">
+    <img src="ikigai.jpeg"  alt="..." width="200px" height="300px">
+    
+  </div>
+  <div class="book h">
+    <img src="lanka.jpeg" alt="..." width="200px" height="300px">
+    
+  </div>
+  <div class="book h">
+    <img src="shiva trilogy.jpg" alt="..."width="200px" height="300px">
+    
+  </div>
+  </div>
+  <div class="ad">
+    <h2><b>For Suggestions click the link given:</b></h2>
+    <button class="btn1 btn btn-outline-danger" onclick="openForm()">Button</button>
+  </div>
+  <div class="form-popup" id="myForm">
+    <form  class="form-container">
+      <h1>Suggestions:</h1>
+      <br>
+      <label><b>Name of the book:</b></label>
+      <input type="text" placeholder="enter name" name="name" required>
+      <br><br>
+      <label><b>Auther's Name</b></label>
+      <input type="text" placeholder="Enter name" name="auther" required>
+      <br><br>
+      <button type="submit" class="btn btn-outline-danger " >Submit</button>
+      <button type="button" class="btn btn-outline-danger " onclick="closeForm()">Cancel</button>
+    </form>
+  </div>
+  
+  <div class="footer">
+    <footer class="py-3 my">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="home.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+    </footer>
+  </div>
+  <script>
+    function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  
+  </script>
+  <script>
+    $(document).ready(function(){
+  $(".h").hide();
+  $(".view").click(function(){
+    $(".h").show();
+    $(this).hide();
+  })
+});
+  </script>
+</body>
+</html>
